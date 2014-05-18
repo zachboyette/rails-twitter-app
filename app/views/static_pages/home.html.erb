@@ -1,7 +1,8 @@
+<% provide(:title, 'Home') %>
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Rails Twitter App | Home</title>
+		<title>Rails Twitter App | <%= yield(:title) %></title>
 	</head>
 	<body>
 		<h1>Rails Twitter App</h1>
